@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**HEADER CSS*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/**LOGIN PAGE CSS*/
+.login-container-hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+/** VERIFY OTP PAGE */
+.verify-otp-container {
+  border: 1px solid rgb(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.otp-container-box {
+  padding: 50px;
+  height: 600px;
+  width: 400px;
+  border: 1px solid rgb(0,0,0,0.3);
+}
+
+.left-dash-container {
+  margin-left: 100px;
+  border-right: 1px solid rgb(0,0,0,0.3);
+}
