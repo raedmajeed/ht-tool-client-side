@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import { useContext } from "react";
+import { UserContextProvider } from "../utility/UserContext";
 
 const HrProfile = () => {
-  return (
-    <div>HrProfile</div>
-  )
-}
+  const { user } = useContext(UserContextProvider);
 
-export default HrProfile
+  return (
+    <div className=" p-2">
+      <div className=" text-4xl text-blue">My Profile</div>
+      <div className="bg-white p-4 rounded-lg shadow-md mb-4">
+        <h2 className="text-2xl font-bold mb-2">{user.name}</h2>
+        <div>
+          <span className="text-gray-600">Email: </span>
+          <span className="text-gray-600">{user.email}</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HrProfile;

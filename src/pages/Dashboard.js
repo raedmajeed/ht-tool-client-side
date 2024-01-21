@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from '../components/Header'
-import DashboardBody from '../components/DashboardBody'
+import React from "react";
+import Header from "../components/Header";
+import DashboardBody from "../components/DashboardBody";
 
 const Dashboard = () => {
   return (
@@ -8,7 +8,7 @@ const Dashboard = () => {
       <Header />
       <DashboardBody />
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
