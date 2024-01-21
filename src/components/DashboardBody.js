@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import JobCard from "./JobCard";
+import api from "./../utility/api";
 
 const jobs = [
   {
@@ -25,6 +26,15 @@ const jobs = [
 ];
 
 const DashboardBody = () => {
+  useEffect(() => {
+    async function getJobs() {
+      const fakeTodos = await api.hr.getJobs();
+      console.log(fakeTodos);
+    }
+
+    getJobs();
+  }, []);
+
   return (
     <div className=" p-2">
       <div className=" text-4xl text-blue">Jobs Listed</div>
