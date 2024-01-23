@@ -1,9 +1,15 @@
-import React from 'react'
+import Header from '../components/Header';
+import JobInputForm from '../components/JobInputForm';
 
 const HrJob = () => {
+  
+
   return (
-    <div>HrJob</div>
-  )
+    <>
+      <Header />
+      <JobInputForm />
+    </>
+  );
 }
 
-export default HrJob
+export default HrJob;

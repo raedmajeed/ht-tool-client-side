@@ -30,6 +30,16 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .email-container {
   display: flex;
   flex-direction: column;
@@ -56,4 +66,60 @@
 .left-dash-container {
   margin-left: 100px;
   border-right: 1px solid rgb(0,0,0,0.3);
+}
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 20px;
+  margin-right: 40px;
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.job-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.job-button {
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.job-button:hover {
+  background-color: #45a049;
+}
+
+.profile-img {
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+  margin-right: 40px;
+  cursor: pointer;
 }
