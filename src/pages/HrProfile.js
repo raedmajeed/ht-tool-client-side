@@ -1,9 +1,24 @@
+<<<<<<< HEAD
 import React from "react";
 import { useContext } from "react";
 import { UserContextProvider } from "../utility/UserContext";
 
 const HrProfile = () => {
   const { user } = useContext(UserContextProvider);
+=======
+import React from 'react'
+import Header from '../components/Header'
+import ViewProfile from './ViewProfile'
+
+const HrProfile = () => {
+  return (
+    <div>
+      <Header />
+      <ViewProfile />
+    </div>
+  )
+}
+>>>>>>> 76824e3
 
   return (
     <div className=" p-2">

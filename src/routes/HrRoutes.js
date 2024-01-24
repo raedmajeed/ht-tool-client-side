@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
@@ -7,6 +8,18 @@ import HrProfile from "../pages/HrProfile";
 import HrJob from "../pages/HrJob";
 import UserContext, { UserContextProvider } from "../utility/UserContext";
 import Dashboard from "./../pages/Dashboard";
+=======
+// import React, { lazy } from 'react'
+import { Navigate, Route, Routes } from 'react-router-dom';
+import Home from '../pages/Home';
+import Signup from '../pages/Signup';
+import Login from '../pages/Login';
+import Dashboard from '../pages/Dashboard';
+import ProtectedRoute from './ProtectedRoute';
+import HrProfile from '../pages/HrProfile';
+import HrJob from '../pages/HrJob';
+
+>>>>>>> 76824e3
 
 const HrRoutes = () => {
   return (

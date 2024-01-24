@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useContext } from "react";
 import { UserContextProvider } from "../utility/UserContext";
 import { useNavigate } from "react-router-dom";
@@ -72,3 +73,20 @@ const HrJob = () => {
 };
 
 export default HrJob;
+=======
+import Header from '../components/Header';
+import JobInputForm from '../components/JobInputForm';
+
+const HrJob = () => {
+  
+
+  return (
+    <>
+      <Header />
+      <JobInputForm />
+    </>
+  );
+}
+
+export default HrJob;
+>>>>>>> 76824e3
